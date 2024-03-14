@@ -57,15 +57,7 @@ npm run dev
 ```bash
 npm run test
 ```
-
-## Category List View
-
-    https://github.com/dibyenduswar/lmg-assesment-nested-categories-for-ecommerce/blob/master/img/category-list-view.png
-
-## Category Collection View
-
-    https://github.com/dibyenduswar/lmg-assesment-nested-categories-for-ecommerce/blob/master/img/mongo-table-data.png
-    
+   
 ## cURLs
 
 1.  Add New Category [POST]
@@ -101,6 +93,19 @@ npm run test
 ```bash
     curl --location --request DELETE 'localhost:3000/category/65f1b35f1083a004ad2158ca'
 ```
+
+## Category Collection View
+
+    https://github.com/dibyenduswar/lmg-assesment-nested-categories-for-ecommerce/blob/master/img/mongo-table-data.png
+
+    ![alt text]([http://url/to/img.png](https://github.com/dibyenduswar/lmg-assesment-nested-categories-for-ecommerce/blob/master/img/mongo-table-data.png))
+    
+## Category List View
+
+    https://github.com/dibyenduswar/lmg-assesment-nested-categories-for-ecommerce/blob/master/img/category-list-view.png
+
+    ![alt text]([http://url/to/img.png](https://github.com/dibyenduswar/lmg-assesment-nested-categories-for-ecommerce/blob/master/img/category-list-view.png))
+
 
 ## Stay in touch
 
