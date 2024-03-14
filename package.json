@@ -1,0 +1,25 @@
+{
+  "name": "styli-ds",
+  "version": "1.0.0",
+  "description": "sample code for category listing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "mocha"
+  },
+  "author": "Dibyendu Swar",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.18.3",
+    "express-prettify": "^0.1.2",
+    "mongoose": "^8.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-http": "^4.4.0",
+    "mocha": "^10.2.0"
+  }
+}
