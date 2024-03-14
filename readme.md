@@ -104,8 +104,7 @@ npm run test
 
     https://github.com/dibyenduswar/lmg-assesment-nested-categories-for-ecommerce/blob/master/img/category-list-view.png
 
-![alt text]([http://url/to/img.png](https://github.com/dibyenduswar/lmg-assesment-nested-categories-for-ecommerce/blob/master/img/category-list-view.png))
-
+![alt text](https://github.com/dibyenduswar/lmg-assesment-nested-categories-for-ecommerce/blob/master/img/category-list-view.png)
 
 ## Stay in touch
 
