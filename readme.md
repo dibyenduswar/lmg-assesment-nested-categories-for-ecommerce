@@ -58,6 +58,14 @@ npm run dev
 npm run test
 ```
 
+## Category List View
+
+    https://github.com/dibyenduswar/lmg-assesment-nested-categories-for-ecommerce/blob/master/img/category-list-view.png
+
+## Category Collection View
+
+    https://github.com/dibyenduswar/lmg-assesment-nested-categories-for-ecommerce/blob/master/img/mongo-table-data.png
+    
 ## cURLs
 
 1.  Add New Category [POST]
