@@ -129,8 +129,15 @@ describe('api-tests', () => {
                         res.body.should.have.property("status").equal("SUCCESS");
                         res.body.should.have.property("count").that.is.at.least(0);
                         res.body.should.have.property("items").that.is.an('array');
-    
+        
                         res.body.items.forEach(category => {
+                            // expected attributes
+                            const expectedAttributes = ["_id", "name", "parent", "children", "__v"];
+                            const unexpectedAttributes = Object.keys(category).filter(attr => !expectedAttributes.includes(attr));                          
+                            if (unexpectedAttributes.length > 0) {
+                                done(new Error(`Unexpected attribute(s) found: ${unexpectedAttributes.join(', ')}`));
+                            }
+                            // Check each attribute for the expected type
                             category.should.have.property("_id").that.is.a('string');
                             category.should.have.property("name").that.is.a('string');
                             if (category.parent !== null)  category.parent.should.be.a('string');
