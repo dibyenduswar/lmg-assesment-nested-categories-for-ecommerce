@@ -12,10 +12,7 @@ const path = require('path');
 const pretty = require('express-prettify');
 require('dotenv').config({ path: path.resolve(__dirname, '../.env') });
 
-app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
-app.use(express.json({limit: 1e+8}));
-app.use(express.urlencoded({extended: true}));  
 app.use(pretty({ query: 'pretty' }));
 
 (async () => {  // syncing mongodb
@@ -27,8 +24,7 @@ const categorySchema = new Schema({
     name: {
         type: String,
         required: true,
-        index: true,
-        unique: true
+        index: true
     },
     parent: {
         type: Schema.Types.ObjectId,
